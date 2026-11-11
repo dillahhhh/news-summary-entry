@@ -2,10 +2,11 @@
 """Write the summary of 11 November 2026 world news to /output/entry.txt.
 
 Entry for the make.fun news-summary-01 competition (program/v1). The
-summary ships as ``summary.txt`` next to this file; this program copies it,
-byte for byte, to ``$MAKEFUN_OUTPUT_DIR/entry.txt`` (``/output/entry.txt``
-by default). Standard library only, no network, fully deterministic: two
-runs write identical bytes.
+summary ships as ``summary.txt`` next to this file — twelve stories, one
+tight sentence each, ordered by importance, every one sourced — and this
+program copies it, byte for byte, to ``$MAKEFUN_OUTPUT_DIR/entry.txt``
+(``/output/entry.txt`` by default). Standard library only, no network,
+fully deterministic: two runs write identical bytes.
 
 The competition gate requires the summary to be UTF-8, 1 to 2,000
 characters, and not only white space, so this program checks those rules
