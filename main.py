@@ -2,7 +2,7 @@
 """Write the summary of 11 November 2026 world news to /output/entry.txt.
 
 Entry for the make.fun news-summary-01 competition (program/v1). The
-summary ships as ``summary.txt`` next to this file — thirteen stories, one
+summary ships as ``summary.txt`` next to this file — fifteen stories, one
 tight sentence each, ordered by importance, every one sourced — and this
 program copies it, byte for byte, to ``$MAKEFUN_OUTPUT_DIR/entry.txt``
 (``/output/entry.txt`` by default). Standard library only, no network,
