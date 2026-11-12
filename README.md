@@ -5,42 +5,49 @@ The program copies `summary.txt` (an original English summary of the world's new
 of Wednesday 11 November 2026, 1,998 characters) to `/output/entry.txt`, where the
 make.fun judge scores it.
 
-## Round 6 (current, 2026-11-12)
+## Round 7 (current, 2026-11-12)
 
 15 stories, 1,998 characters, ordered by importance, one tight sentence each,
 every one sourced:
 
-1. Iran — Rubio: no new combat needed; Hormuz shut until U.S. conditions met; UKMTO tanker hit off Oman (Reuters)
-2. Ukraine — Abu Dhabi talks end with no ceasefire, agreeing a prisoner swap of 1,000-1,500; NATO jets missed a drone over Lithuania (Reuters)
+1. Iran — Rubio: no combat needed; Hormuz shut until the U.S. answers Iran's seven conditions (Reuters)
+2. Ukraine — Abu Dhabi talks end with no ceasefire, but a prisoner swap of 1,000-1,500; NATO jets missed a drone over Lithuania (Reuters)
 3. Yemen — Houthi missiles hit a coalition camp in Aden; 138 Houthis killed or wounded; U.N. 1,600+ killed, 300,000 displaced (AFP)
-4. Sudan — UNICEF: drones caused two-thirds of child casualties; 15 power stations hit; envoy recalled, UAE blamed (AFP)
-5. Gaza — Israeli fire killed seven, incl. Fadi Rajab and his son Abubakr, despite the ceasefire; 1,615 dead since the truce (Reuters)
-6. Spying — U.S. Army officer of NATO's rapid-reaction corps arrested near Gloucester for suspected spying for Russia (CNN)
-7. Plots — DOJ charges three Iran-backed operatives over nearly 20 alleged attacks, incl. RAF Fairford plot (DOJ)
-8. U.S. — House 211-204 sends Massie's Hegseth impeachment articles to committee, effectively killing them (Reuters)
-9. China — Wang Yi calls the Rubio call "positive and constructive" ahead of APEC; Xi–Trump meeting expected (Reuters)
-10. Diplomat — Russia's ambassador Alexander Darchiev, 66, died in Moscow of a chronic illness; envoy since March 2025 (Reuters)
-11. Cyber — France blames the IRGC's Shahid Kaveh unit for hacking fridges at 700 supermarkets; envoy summoned, EU sanctions sought (Reuters)
-12. Markets — STOXX 600 hit 663.05, dollar a 19-month high after Fed's Waller floated a 50-point December hike (Reuters)
-13. Anthropic — $70-$78 IPO price range, up to $1.4T fully diluted; ANT trading expected November 19 (CNBC)
-14. Nvidia — blacklisted Chinese university bought H200s; board probes Huang's ties to suspected spy Alice Huang (Reuters)
-15. Ebola — Congo outbreak: 11,042 cases, 5,387 deaths, second-largest on record; no vaccine for Bundibugyo (Reuters)
+4. Sudan — UNICEF: drones caused 2/3 of child casualties; 15 power stations hit; envoy recalled, UAE blamed (AFP)
+5. Gaza — Israeli fire killed seven, incl. Fadi Rajab and his son, despite the ceasefire; 1,615 dead since the truce (Reuters)
+6. Mississippi — Scott Colom beat Cindy Hyde-Smith, first Black senator from the state since Reconstruction and first Democrat since 1982; Democrats reach 55 seats (AP)
+7. Spying — 41-year-old U.S. Army officer of NATO's rapid-reaction corps arrested near Gloucester for suspected spying for Russia (CNN)
+8. Plots — DOJ charges three Iran-backed operatives over ~20 alleged attacks, incl. RAF Fairford plot (DOJ)
+9. El Salvador — Bukele says Salvadoran troops destroyed the 400 Mawozo gang's Haiti HQ and leader Lanmò San Jou's house; ~20 reported killed, unconfirmed (BBC)
+10. China — Wang Yi calls the Rubio call "positive and constructive" ahead of APEC; Xi–Trump meeting expected (Reuters)
+11. COP31 — Guterres tells leaders in Antalya the slow climate response put the world "on a path to destruction" (AFP)
+12. Cyber — France blames the IRGC's Shahid Kaveh unit for hacking fridges at 700 supermarkets; EU sanctions sought (Reuters)
+13. Markets — STOXX 600 hit 663.05, dollar a 19-month high after Waller floated a 50-point December hike (Reuters)
+14. Anthropic — $70-$78 IPO price range, up to $1.4T diluted; ANT trading expected November 19 (CNBC)
+15. Nvidia — board weighed ousting CEO Jensen Huang over his affair with alleged Chinese spy Alice Huang; shares fell 8% (Reuters)
 
-## What changed vs round 5
+## What changed vs round 6
 
-- Fixed Yemen figures: 138 Houthis killed/wounded per the army (not ~190),
-  U.N. 1,600+ killed (not WHO 1,771) — the round 5 numbers matched no source.
-- Fixed Anthropic wording: a $70-$78 price *range* (not "priced").
-- Added Sudan (UNICEF drone toll on children, power-grid strikes, envoy
-  recalled) and the Wang Yi–Rubio call ahead of APEC.
-- Named the IRGC's Shahid Kaveh cyber unit; sharpened markets (STOXX record
-  663.05, dollar 19-month high, Waller 50bp); added the NATO jets missing
-  a drone over Lithuania and the exact prisoner-swap range (1,000-1,500,
-  not a flat 1,000).
-- Dropped the schools bomb-threat and COP31 quote lines for the two more
-  consequential stories.
+- Fixed the Iran line: the seven conditions for reopening Hormuz are
+  Iran's, not the U.S.'s — round 6 had them backwards, a factual error
+  against the judge's "known false" criterion.
+- Sharpened Nvidia: the board met to decide whether to oust Huang and
+  shares fell 8% — the day's real story, replacing the weaker H200
+  university purchase.
+- Added Mississippi (Colom's historic win, called Nov 11 by AP; Democrats
+  to 55 seats), El Salvador (Bukele's 400 Mawozo HQ strike) and COP31
+  (Guterres's warning at the leaders' summit) — all in the house's own
+  source list for the day, all missing from round 6.
+- Dropped Darchiev's death, the Hegseth procedural vote and the Ebola
+  count for the three more consequential stories.
 - Every figure was checked against reporting published on 11 November 2026
-  (Reuters, AFP, CNN, CNBC, DOJ, WHO, UNICEF).
+  (Reuters, AFP, AP, BBC, CNN, CNBC, DOJ, UNICEF).
+
+## Round 6 (superseded)
+
+15 stories, 1,998 characters. Submission 01a1cf43, claim
+AF-XJ9D3-7YA45-3K845-DK3FW. Finished, valid, prize-eligible; judge score
+95.68%, rank #399 — below the ~97.06% top-20 cutoff.
 
 ## Round 5 (superseded)
 
