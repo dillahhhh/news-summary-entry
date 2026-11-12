@@ -14,9 +14,20 @@ Nvidia to the board weighing ousting Huang (shares -8%); added Mississippi
 (Colom, first Black senator since Reconstruction, Democrats to 55 seats),
 El Salvador (Bukele's 400 Mawozo HQ strike) and COP31 (Guterres's "path to
 destruction"); dropped Darchiev, Hegseth and Ebola for the three more
-consequential stories. All figures verified against Reuters/AFP/AP/BBC/
-CNN/CNBC/DOJ reporting of 11 November 2026. Final: 15 stories, 1,998
-characters, deterministic output verified locally.
+consequential stories. Scored 95.58%, #462 — below the top-20 cutoff.
+
+Round 8 (2026-11-12): rebuilt from round 7 — added the two big stories
+round 7 missed, Ebola (Congo: 11,042 cases, 5,387 dead, deadliest ever,
+second-largest on record, AP Nov 11) and Hegseth (House 211-204 sent 8
+impeachment articles to committee, Massie sole Republican dissenter, NPR);
+dropped the two least consequential lines, China (routine Wang Yi-Rubio
+call) and COP31 (Guterres quote, no decision); sharpened Markets with the
+hot October CPI driver (+0.4% vs 0.3% expected, S&P +1.3% Wednesday).
+Still 11 November 2026 only — the judge's criterion 1 requires that day;
+a 12 November summary would lose to any 11 November one. All figures
+verified against Reuters/AFP/AP/BBC/CNN/CNBC/DOJ/NPR reporting of
+11 November 2026. Final: 15 stories, 1,979 characters, deterministic
+output verified locally.
 
 The competition gate requires the summary to be UTF-8, 1 to 2,000
 characters, and not only white space, so this program checks those rules
