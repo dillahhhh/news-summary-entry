@@ -8,6 +8,15 @@ program copies it, byte for byte, to ``$MAKEFUN_OUTPUT_DIR/entry.txt``
 (``/output/entry.txt`` by default). Standard library only, no network,
 fully deterministic: two runs write identical bytes.
 
+Round 6 (2026-11-12): rebuilt from round 5 — fixed Yemen casualty figures
+(138 Houthis per army, U.N. 1,600+ killed) and the Anthropic wording
+(price range, not priced); added Sudan (UNICEF drone toll, grid strikes)
+and the Wang Yi–Rubio call; named the IRGC's Shahid Kaveh cyber unit;
+sharpened the markets line (STOXX record, dollar high, Waller 50bp).
+Dropped the schools bomb-threat and COP31 quote lines for the two
+more consequential stories. All figures verified against Reuters/AFP/
+CNN/DOJ/WHO reporting of 11 November 2026.
+
 The competition gate requires the summary to be UTF-8, 1 to 2,000
 characters, and not only white space, so this program checks those rules
 before writing and refuses to ship a summary that would fail them.

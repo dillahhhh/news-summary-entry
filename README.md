@@ -2,42 +2,57 @@
 
 Entry for the make.fun "Write the best summary of 11 November's world news" bounty.
 The program copies `summary.txt` (an original English summary of the world's news
-of Wednesday 11 November 2026, 1,999 characters) to `/output/entry.txt`, where the
+of Wednesday 11 November 2026, 1,998 characters) to `/output/entry.txt`, where the
 make.fun judge scores it.
 
-## Coverage (15 stories, ordered by importance)
+## Round 6 (current, 2026-11-12)
 
-The summary covers fifteen stories, one tight sentence each, every one sourced
-so a reader can verify it:
+15 stories, 1,998 characters, ordered by importance, one tight sentence each,
+every one sourced:
 
-1. Iran — Rubio in Paris on no combat operations, Hormuz shut, tankers hit mines (Reuters)
-2. Ukraine — Abu Dhabi talks end with no ceasefire but a 1,000-prisoner swap each side; NATO jets scramble (Reuters)
-3. Espionage — 41-year-old U.S. Army officer from NATO's rapid-reaction corps arrested near Gloucester (CNN)
-4. Plots — DOJ charges three Iran-backed operatives over nearly 20 alleged attacks, incl. RAF Fairford plot (DOJ)
-5. Gaza — Israeli fire killed seven despite the ceasefire (Reuters)
-6. U.S. politics — House 211-204 sends Hegseth impeachment articles to committee (Reuters)
-7. Diplomat — Russia's ambassador to the U.S., Alexander Darchiev, 66, died suddenly (Reuters)
-8. Schools — fake bomb threats force evacuations at ~6,300 Italian school groups and hundreds more in Ireland and Scotland (Le Monde)
-9. Yemen — missiles hit Aden; government claims ~190 Houthis killed or wounded, WHO counts 1,771 killed, 300,000 displaced (AFP)
-10. Cyber — France blames Iran's IRGC for October hack of refrigeration at 700 supermarkets; EU sanctions weighed (Reuters)
-11. Markets — European stocks rise, DAX +1.2%, Brent $93.51; futures rebound after hot October CPI (Reuters)
-12. Anthropic — IPO priced $70-$78, up to $1.4T fully diluted, Nasdaq ticker ANT (CNBC)
-13. Nvidia — blacklisted Chinese university bought H200 chips; board probes Huang's ties to suspected spy Alice Huang (Reuters)
-14. Ebola — Congo outbreak: 11,042 confirmed, 5,387 dead (Reuters)
-15. Climate — Guterres at COP31 ("on a path to destruction") (Reuters)
+1. Iran — Rubio: no new combat needed; Hormuz shut until U.S. conditions met; UKMTO tanker hit off Oman (Reuters)
+2. Ukraine — Abu Dhabi talks end with no ceasefire, agreeing a prisoner swap of 1,000-1,500; NATO jets missed a drone over Lithuania (Reuters)
+3. Yemen — Houthi missiles hit a coalition camp in Aden; 138 Houthis killed or wounded; U.N. 1,600+ killed, 300,000 displaced (AFP)
+4. Sudan — UNICEF: drones caused two-thirds of child casualties; 15 power stations hit; envoy recalled, UAE blamed (AFP)
+5. Gaza — Israeli fire killed seven, incl. Fadi Rajab and his son Abubakr, despite the ceasefire; 1,615 dead since the truce (Reuters)
+6. Spying — U.S. Army officer of NATO's rapid-reaction corps arrested near Gloucester for suspected spying for Russia (CNN)
+7. Plots — DOJ charges three Iran-backed operatives over nearly 20 alleged attacks, incl. RAF Fairford plot (DOJ)
+8. U.S. — House 211-204 sends Massie's Hegseth impeachment articles to committee, effectively killing them (Reuters)
+9. China — Wang Yi calls the Rubio call "positive and constructive" ahead of APEC; Xi–Trump meeting expected (Reuters)
+10. Diplomat — Russia's ambassador Alexander Darchiev, 66, died in Moscow of a chronic illness; envoy since March 2025 (Reuters)
+11. Cyber — France blames the IRGC's Shahid Kaveh unit for hacking fridges at 700 supermarkets; envoy summoned, EU sanctions sought (Reuters)
+12. Markets — STOXX 600 hit 663.05, dollar a 19-month high after Fed's Waller floated a 50-point December hike (Reuters)
+13. Anthropic — $70-$78 IPO price range, up to $1.4T fully diluted; ANT trading expected November 19 (CNBC)
+14. Nvidia — blacklisted Chinese university bought H200s; board probes Huang's ties to suspected spy Alice Huang (Reuters)
+15. Ebola — Congo outbreak: 11,042 cases, 5,387 deaths, second-largest on record; no vaccine for Bundibugyo (Reuters)
 
-## What changed vs the previous version
+## What changed vs round 5
 
-The previous version covered 13 stories in 1,991 characters. This rewrite adds
-the day's two biggest missing stories — the missile strikes on Aden and the
-Yemen fighting, and France blaming Iran's IRGC for the supermarket-freezer
-cyberattack — and compresses every story so 15 fit in 1,999 characters. The
-Yemen item now leads with the November 11 Aden strikes (missiles and drones
-hit the city and a Saudi-led coalition camp) instead of the government's
-unverified casualty claim alone. Claims that are only alleged are labelled as
-such (Alice Huang is a "suspected" spy; the ~190 Yemen casualties are the
-government's claim). Every figure was checked against reporting published on
-11 November 2026 (Reuters, CNN, CNBC, Le Monde, DOJ, AFP, AP, WHO).
+- Fixed Yemen figures: 138 Houthis killed/wounded per the army (not ~190),
+  U.N. 1,600+ killed (not WHO 1,771) — the round 5 numbers matched no source.
+- Fixed Anthropic wording: a $70-$78 price *range* (not "priced").
+- Added Sudan (UNICEF drone toll on children, power-grid strikes, envoy
+  recalled) and the Wang Yi–Rubio call ahead of APEC.
+- Named the IRGC's Shahid Kaveh cyber unit; sharpened markets (STOXX record
+  663.05, dollar 19-month high, Waller 50bp); added the NATO jets missing
+  a drone over Lithuania and the exact prisoner-swap range (1,000-1,500,
+  not a flat 1,000).
+- Dropped the schools bomb-threat and COP31 quote lines for the two more
+  consequential stories.
+- Every figure was checked against reporting published on 11 November 2026
+  (Reuters, AFP, CNN, CNBC, DOJ, WHO, UNICEF).
+
+## Round 5 (superseded)
+
+15 stories, 1,999 characters. Submission 01a1cef6, claim
+AF-DZ680-3NTTP-6ZGDB-F1WKP. Finished, valid, prize-eligible; judge score
+never appeared (dev heat unjudged after 1+ hour).
+
+## Round 4 (superseded)
+
+13 stories, 1,991 characters. Submission 01a1ceea, claim
+AF-E9CX3-0B919-8NKAX-JM55J. Proven valid on the server (all checks passed,
+reproduces 54%) but superseded before a dev score.
 
 `main.py` validates the competition gate before writing (UTF-8, 1–2,000
 characters, not only white space) and verifies the written bytes match
