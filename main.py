@@ -27,7 +27,8 @@ Still 11 November 2026 only — the judge's criterion 1 requires that day;
 a 12 November summary would lose to any 11 November one. All figures
 verified against Reuters/AFP/AP/BBC/CNN/CNBC/DOJ/NPR reporting of
 11 November 2026. Final: 15 stories, 1,979 characters, deterministic
-output verified locally.
+output verified locally (two runs wrote identical bytes; the written
+entry.txt is byte-identical to summary.txt).
 
 The competition gate requires the summary to be UTF-8, 1 to 2,000
 characters, and not only white space, so this program checks those rules
