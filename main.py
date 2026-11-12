@@ -15,7 +15,8 @@ and the Wang Yi–Rubio call; named the IRGC's Shahid Kaveh cyber unit;
 sharpened the markets line (STOXX record, dollar high, Waller 50bp).
 Dropped the schools bomb-threat and COP31 quote lines for the two
 more consequential stories. All figures verified against Reuters/AFP/
-CNN/DOJ/WHO reporting of 11 November 2026.
+CNN/DOJ/WHO reporting of 11 November 2026. Final: 15 stories, 1,998
+characters, deterministic output verified locally.
 
 The competition gate requires the summary to be UTF-8, 1 to 2,000
 characters, and not only white space, so this program checks those rules
